@@ -1,0 +1,355 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/CSS.css" type="text/css">
+<link href="css/CSS.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header" id="EstiloPaginainicial">
+		<h1>Catalogo-Casa Hugo</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#MDMadera">Muebles de Madera</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<!--Aqui se inician los menus de los Articulos-->
+
+<div data-role="page" id="MDMadera">
+	<div data-role="header">
+		<h1>Muebles de Madera</h1>
+	</div>
+	<div data-role="content">	
+			<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#Roperos">Roperos</a></li>
+            <li><a href="#Tocadores">Tocadores</a></li>
+			<li><a href="#Alacenas">Alacenas</a></li>
+            <li><a href="#Cajoneras">Cajoneras</a></li>
+            <li><a href="#Vitrinas">Vitrinas</a></li>
+		</ul>		
+	</div>
+        <div align="center">
+         <a href="#page">
+         <img src="Imagenes/Botones/botonRegresar.jpg" width="130" height="50">
+         </a>
+        </div>		
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<!--Aqui se inician los menus de los Muebles de Madera-->
+
+<div data-role="page" id="Roperos">
+	<div data-role="header">
+		<h1>Roperos</h1>
+	</div>
+	<div data-role="content">	
+			<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#RoperoDiaz">Ropero Diaz</a></li>
+            <li><a href="#RoperoBrazil3Lunas">Ropero Brazil 3 Lunas</a></li>
+		</ul>		
+	</div>
+        <div align="center">
+         <a href="#MDMadera">
+         <img src="Imagenes/Botones/botonRegresar.jpg" width="130" height="50">
+         </a>
+        </div>		
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="Tocadores">
+	<div data-role="header">
+		<h1>Tocadores</h1>
+	</div>
+	<div data-role="content">	
+			<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#TocadorCisnes">Tocador Cisnes</a></li>
+		</ul>		
+	</div>
+        <div align="center">
+         <a href="#MDMadera">
+         <img src="Imagenes/Botones/botonRegresar.jpg" width="130" height="50">
+         </a>
+        </div>		
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="Alacenas">
+	<div data-role="header">
+		<h1>Alacenas</h1>
+	</div>
+	<div data-role="content">	
+			<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#AlacenaPortaM">Porta Microondas</a></li>
+            <li><a href="#AlacenaReyna">Alacena Reyna</a></li>
+		</ul>		
+	</div>
+        <div align="center">
+         <a href="#MDMadera">
+         <img src="Imagenes/Botones/botonRegresar.jpg" width="130" height="50">
+         </a>
+        </div>		
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="Cajoneras">
+	<div data-role="header">
+		<h1>Cajoneras</h1>
+	</div>
+	<div data-role="content">	
+			<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#Chifonier10c">Chifonier de 10 cajones</a></li>
+		</ul>		
+	</div>
+        <div align="center">
+         <a href="#MDMadera">
+         <img src="Imagenes/Botones/botonRegresar.jpg" width="130" height="50">
+         </a>
+        </div>		
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<!--Aqui se inician las descripciones de los Articulos de Roperos-->
+
+<div data-role="page" id="RoperoDiaz">
+	<div data-role="header">
+		<h1>Ropero Diaz</h1>
+	</div>
+	<div data-role="content">	
+			<div data-role="content">	
+		<div align="left">
+		<img src="Imagenes/Articulos/Roperos/RopDiaz1.jpg" height="200"><br>
+        </div>
+        <div align="left">
+        <img src="Imagenes/Articulos/Roperos/RopDiaz2.jpg" height="200"><br>
+        </div>
+        <table border="1" align="left">
+        <tr><td>Descripcion:</td></tr>
+        <tr><td>2 puertas grandes</td></tr>   
+        <tr><td>4 Puertas grandes</td></tr>
+        <tr><td>6 Cajones</td></tr> 
+        <tr><td>1 Puerta oculta</td></tr> 
+        <tr><td>1 Maletero</td></tr>
+        </table>
+        <table border="1" align="left"> 
+        <tr><td>Dimenciones:</td></tr>
+        <tr><td>Altura:2.20 metros</td></tr>   
+        <tr><td>Ancho:53 centimetros</td></tr>
+        <tr><td>Largo 2 metros</td></tr> 
+        </table>
+        <table border="1" align="left">
+        <tr><td>Precio:</td></tr>
+        <tr><td>2 Meses = $3200</td></tr> 
+        <tr><td>Credito = $4800</td></tr> 
+        <tr><td>Pago inical:$300</td></tr>	
+        </table>	
+	</div>
+        <div align="center">
+         <a href="#Roperos">
+         <img src="Imagenes/Botones/botonRegresar.jpg" width="130" height="50">
+         </a>
+        </div>		
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="RoperoBrazil3Lunas">
+	<div data-role="header">
+		<h1>Ropero Brazil 3 Lunas</h1>
+	</div>
+	<div data-role="content">	
+		<div data-role="content">
+        <div align="center">
+		<img src="Imagenes/Articulos/Roperos/Brazil3Lunas.JPG" height="200"><br>
+        <table border="1">
+        <tr><td>Descripcion:</td></tr>
+        <tr><td>3 Lunas</td></tr>   
+        <tr><td>1 Puerta corredisa</td></tr>
+        <tr><td>3 Cajones</td></tr> 
+        <tr><td>Precio:</td></tr>
+        <tr><td>2 Meses = $3200</td></tr> 
+        <tr><td>Credito = $4800</td></tr> 
+        <tr><td>Pago inical:$300</td></tr>	
+        </table>
+        </div>
+	</div>
+        <div align="center">
+         <a href="#Roperos">
+         <img src="Imagenes/Botones/botonRegresar.jpg" width="130" height="50">
+         </a>
+        </div>		
+	</div>
+	<div data-role="footer">
+		<h4>Bonito y elegante diseño ideal para la recamara de tu casa</h4>
+	</div>
+</div>
+
+<!--Aqui se inician las descripciones de los Articulos de Tocadores-->
+
+<div data-role="page" id="TocadorCisnes">
+	<div data-role="header">
+		<h1>Tocador Cisnes</h1>
+	</div>
+	<div data-role="content">	
+		<div data-role="content">
+        <div align="center">
+		<img src="Imagenes/Articulos/Tocadores/DSCF6347.JPG" height="200"><br>
+        <img src="Imagenes/Articulos/Tocadores/DSCF6348.JPG" height="200"><br>
+        <table border="1">
+        <tr><td>Descripcion:</td></tr>
+        <tr><td>1 Luna con 6 divisiones</td></tr>   
+        <tr><td>2 Puertas</td></tr>
+        <tr><td>4 Cajones</td></tr> 
+        <tr><td>Precio:</td></tr>
+        <tr><td>4 Meses = $2900</td></tr> 
+        <tr><td>Credito = $3900</td></tr> 
+        <tr><td>Pago inical:$300</td></tr>	
+        </table>
+        </div>
+	</div>
+        <div align="center">
+         <a href="#Tocadores">
+         <img src="Imagenes/Botones/botonRegresar.jpg" width="130" height="50">
+         </a>
+        </div>		
+	</div>
+	<div data-role="footer">
+		<h4>Bonito y elegante diseño ideal para la recamara de tu casa</h4>
+	</div>
+</div>
+
+<!--Aqui se inician las descripciones de los Articulos de Alacenas-->
+
+<div data-role="page" id="AlacenaPortaM">
+	<div data-role="header">
+		<h1>Porta Microondas</h1>
+	</div>
+	<div data-role="content">	
+		<div data-role="content">
+        <div align="center">
+		<img src="Imagenes/Articulos/Tocadores/DSCF6347.JPG" height="200"><br>
+        <img src="Imagenes/Articulos/Tocadores/DSCF6348.JPG" height="200"><br>
+        <table border="1">
+        <tr><td>Descripcion:</td></tr>
+        <tr><td>1 Luna con 6 divisiones</td></tr>   
+        <tr><td>2 Puertas</td></tr>
+        <tr><td>4 Cajones</td></tr> 
+        <tr><td>Precio:</td></tr>
+        <tr><td>4 Meses = $2900</td></tr> 
+        <tr><td>Credito = $3900</td></tr> 
+        <tr><td>Pago inical:$300</td></tr>	
+        </table>
+        </div>
+	</div>
+        <div align="center">
+         <a href="#Alacenas">
+         <img src="Imagenes/Botones/botonRegresar.jpg" width="130" height="50">
+         </a>
+        </div>		
+	</div>
+	<div data-role="footer">
+		<h4>Bonito y elegante diseño ideal para la recamara de tu casa</h4>
+	</div>
+</div>
+
+<div data-role="page" id="AlacenaReyna">
+	<div data-role="header">
+		<h1>Alacena Reyna</h1>
+	</div>
+	<div data-role="content">	
+		<div data-role="content">
+        <div align="center">
+		<img src="Imagenes/Articulos/Tocadores/DSCF6347.JPG" height="200"><br>
+        <img src="Imagenes/Articulos/Tocadores/DSCF6348.JPG" height="200"><br>
+        <table border="1">
+        <tr><td>Descripcion:</td></tr>
+        <tr><td>1 Luna con 6 divisiones</td></tr>   
+        <tr><td>2 Puertas</td></tr>
+        <tr><td>4 Cajones</td></tr> 
+        <tr><td>Precio:</td></tr>
+        <tr><td>4 Meses = $2900</td></tr> 
+        <tr><td>Credito = $3900</td></tr> 
+        <tr><td>Pago inical:$300</td></tr>	
+        </table>
+        </div>
+	</div>
+        <div align="center">
+         <a href="#Alacenas">
+         <img src="Imagenes/Botones/botonRegresar.jpg" width="130" height="50">
+         </a>
+        </div>		
+	</div>
+	<div data-role="footer">
+		<h4>Bonito y elegante diseño ideal para la recamara de tu casa</h4>
+	</div>
+</div>
+
+<!--Aqui se inician las descripciones de los Articulos de Cajoneras-->
+
+<div data-role="page" id="Chifonier10c">
+	<div data-role="header">
+		<h1>Chifonier de 10 cajones</h1>
+	</div>
+	<div data-role="content">	
+		<div data-role="content">
+        <div align="center">
+		<img src="Imagenes/Articulos/Tocadores/DSCF6347.JPG" height="200"><br>
+        <img src="Imagenes/Articulos/Tocadores/DSCF6348.JPG" height="200"><br>
+        <table border="1">
+        <tr><td>Descripcion:</td></tr>
+        <tr><td>1 Luna con 6 divisiones</td></tr>   
+        <tr><td>2 Puertas</td></tr>
+        <tr><td>4 Cajones</td></tr> 
+        <tr><td>Precio:</td></tr>
+        <tr><td>4 Meses = $2900</td></tr> 
+        <tr><td>Credito = $3900</td></tr> 
+        <tr><td>Pago inical:$300</td></tr>	
+        </table>
+        </div>
+	</div>
+        <div align="center">
+         <a href="#Cajoneras">
+         <img src="Imagenes/Botones/botonRegresar.jpg" width="130" height="50">
+         </a>
+        </div>		
+	</div>
+	<div data-role="footer">
+		<h4>Bonito y elegante diseño ideal para la recamara de tu casa</h4>
+	</div>
+</div>
+
+</body>
+</html>

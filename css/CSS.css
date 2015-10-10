@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+#EstiloPaginainicial
+{
+	background:#F90;
+}
+#DivImagenes1
+{
+	float:left;
+}
+#DivImagenes2
+{
+	float:rigth;
+}
